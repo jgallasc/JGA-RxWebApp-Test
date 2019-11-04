@@ -1,0 +1,40 @@
+{
+  "ServerUrl": "http://localhost:8100/",
+  "ProjectKey": "RXTST",
+  "Templates": [
+    {
+      "Name": "template1",
+      "Body": {
+        "fields": {
+          "summary": "Autom. Test vom $(Now) - Testfall $(TestCaseName)",
+          "description": "Autom. Testausführung --> Rx TestCaseTag $(TestCaseTag) ---> Rx Testfall-ID $(TestCaseId)",
+          "project": {
+            "key": "RXTST"
+          },
+          "issuetype": {
+            "name": "Bug"
+          },
+          "reporter": {
+            "name": "$(UserName)"
+          },
+          "priority": {
+            "name": "Medium"
+          }
+        }
+      }
+    }
+  ],
+  "CreateLinkSettings": {
+    "Enabled": false,
+    "IssueType": "Verbesserung",
+    "UrlSettings": {
+      "summary": "Ranorex test case $(TestCaseName)"
+    }
+  },
+  "UpdateIssueSettings": {
+    "Enabled": true,
+    "ClosedState": "Fertig",
+    "OpenState": "Aufgaben",
+    "CreationTemplate": "template1"
+  }
+}

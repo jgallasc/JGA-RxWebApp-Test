@@ -125,5 +125,8 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			C:\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Integrations.Jira.dll
+		</reference>
 	</references>
 </testsuitedoc>
