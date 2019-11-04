@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="17.8s"
+		durationms="17802"
+		type="root"
+		rid="11317006335684ce"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="jgallasc"
+		rxversion="9.2.0.0"
+		host="DESKTOP-4VAJVCD"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-DE"
+		screenresolution="1920x1080"
+		timestamp="04.11.2019 19:23:28"
+		timestampiso="2019-11-04T18:23:28"
+		endtime="04.11.2019 19:23:46"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.510"
+			timeRelativeToTestModuleStartTime="00:05.510"
+			timeWallClock="19:23:33"
+			time="00:05.510"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'ApplicationUnderTest.BudgetguideLight' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mlp-financify.de']//ul[#'mlp-navigation']/?/?/a[@innertext='Budgetguide light']"
+				itempath=".//ul[#'mlp-navigation']/?/?/a[@innertext='Budgetguide light']"
+				fullname="JGA_RxWebApp_TestRepository.ApplicationUnderTest.BudgetguideLight"
+				id="32f8d7d4622b42199e3c9b14c5047d2f"
+				timeout="60000"
+				codefile="d:\Projekte Ranorex Studio\JGA-RxWebApp-Test\JGA-RxWebApp-Test\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.800"
+			timeRelativeToTestModuleStartTime="00:17.800"
+			timeWallClock="19:23:46"
+			time="00:17.800"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

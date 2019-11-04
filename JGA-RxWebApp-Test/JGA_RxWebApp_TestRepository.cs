@@ -85,6 +85,7 @@ namespace JGA_RxWebApp_Test
         [RepositoryFolder("3560883d-df7f-489a-9273-0c75cf95131e")]
         public partial class ApplicationUnderTestAppFolder : RepoGenBaseFolder
         {
+            JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder _pgflightroot;
             RepoItemInfo _budgetguidelightInfo;
             RepoItemInfo _buttonrippleparentInfo;
             RepoItemInfo _buttonbuttonprimaryrippleparentInfo;
@@ -97,6 +98,7 @@ namespace JGA_RxWebApp_Test
             public ApplicationUnderTestAppFolder(RepoGenBaseFolder parentFolder) :
                     base("ApplicationUnderTest", "/dom[@domain='mlp-financify.de']", parentFolder, 30000, null, false, "3560883d-df7f-489a-9273-0c75cf95131e", "")
             {
+                _pgflightroot = new JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder(this);
                 _budgetguidelightInfo = new RepoItemInfo(this, "BudgetguideLight", ".//ul[#'mlp-navigation']/?/?/a[@innertext='Budgetguide light']", 30000, null, "32f8d7d4-622b-4219-9e3c-9b14c5047d2f");
                 _buttonrippleparentInfo = new RepoItemInfo(this, "ButtonRippleParent", ".//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/div/div", 30000, null, "2ecd24cd-7ba4-4f70-b86d-9a8f9ed39533");
                 _buttonbuttonprimaryrippleparentInfo = new RepoItemInfo(this, "ButtonButtonPrimaryRippleParent", ".//iframe[#'application']//div[#'pgf-light-root']//footer/div", 30000, null, "362bb3ab-4de9-49ce-9398-4cb3eb045537");
@@ -245,6 +247,853 @@ namespace JGA_RxWebApp_Test
                 get
                 {
                     return _spantag1994Info;
+                }
+            }
+
+            /// <summary>
+            /// The PgfLightRoot folder.
+            /// </summary>
+            [RepositoryFolder("f0cbcab7-0f0d-45dd-9858-40058b664abb")]
+            public virtual JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder PgfLightRoot
+            {
+                get { return _pgflightroot; }
+            }
+        }
+
+        /// <summary>
+        /// The PgfLightRootFolder folder.
+        /// </summary>
+        [RepositoryFolder("f0cbcab7-0f0d-45dd-9858-40058b664abb")]
+        public partial class PgfLightRootFolder : RepoGenBaseFolder
+        {
+            ButtonButtonPrimaryRippleParent1InfoClass _buttonbuttonprimaryrippleparent1Info;
+            RepoItemInfo _iconbuttoniconbuttonprimaryrippleInfo;
+            RepoItemInfo _pathInfo;
+            RepoItemInfo _radiobuttoniconInfo;
+            RepoItemInfo _webelementsvgInfo;
+            RepoItemInfo _webelementsvg1Info;
+            RepoItemInfo _textInfo;
+            RepoItemInfo _selectmenuInfo;
+            RepoItemInfo _webelementsvg2Info;
+            RepoItemInfo _iconbuttoniconbuttonprimaryripple2Info;
+            RepoItemInfo _iconbuttoniconbuttonprimaryripple3Info;
+            RepoItemInfo _iconbuttoniconbuttonprimaryripple1Info;
+            RepoItemInfo _divtag2023Info;
+            RepoItemInfo _selectvalueInfo;
+            RepoItemInfo _path1Info;
+            RepoItemInfo _divtag2026Info;
+            RepoItemInfo _selectarrowInfo;
+            RepoItemInfo _addbuttoncontentInfo;
+            RepoItemInfo _bubblecontentInfo;
+            RepoItemInfo _bubblecontent1Info;
+            RepoItemInfo _gespraechsterminvereinbarenInfo;
+            RepoItemInfo _webelementsvg3Info;
+            RepoItemInfo _webelementsvg4Info;
+            RepoItemInfo _webelementsvg5Info;
+            RepoItemInfo _path2Info;
+            RepoItemInfo _webelementsvg6Info;
+            ProcessStepProcessStepCompletedInfoClass _processstepprocessstepcompletedInfo;
+            RepoItemInfo _wuenscheInfo;
+
+            /// <summary>
+            /// Creates a new PgfLightRoot  folder.
+            /// </summary>
+            public PgfLightRootFolder(RepoGenBaseFolder parentFolder) :
+                    base("PgfLightRoot", ".//iframe[#'application']//div[#'pgf-light-root']", parentFolder, 30000, null, false, "f0cbcab7-0f0d-45dd-9858-40058b664abb", "")
+            {
+                _buttonbuttonprimaryrippleparent1Info = new ButtonButtonPrimaryRippleParent1InfoClass(this);
+                _iconbuttoniconbuttonprimaryrippleInfo = new RepoItemInfo(this, "IconButtonIconButtonPrimaryRipple", ".//footer/div[2]/div[2]", 30000, null, "fe0f207c-a4f1-48d7-8352-c4051c8a2bef");
+                _pathInfo = new RepoItemInfo(this, "Path", ".//footer/div[2]/div[2]/div[1]/tag[@tagname='svg']/tag[@tagname='path']", 30000, null, "afa143e9-5b42-4713-8b26-b8f52a5b0f03");
+                _radiobuttoniconInfo = new RepoItemInfo(this, "RadioButtonIcon", ".//main/main/div/div[2]/label/div/div[1]/div[3]", 30000, null, "25946474-3929-484f-9139-dceb435d05ce");
+                _webelementsvgInfo = new RepoItemInfo(this, "WebElementSvg", "div/div[2]/main//span/div/div[2]/div/div[2]/div[2]/div[1]/tag[@tagname='svg']", 30000, null, "959c77fd-c085-4580-9fd0-681195a1dc1a");
+                _webelementsvg1Info = new RepoItemInfo(this, "WebElementSvg1", "div/div[2]/main//span/div[2]/div[2]/div/div[2]/div[2]/div[6]/tag[@tagname='svg']", 30000, null, "c36adf10-d3e2-4ea2-935a-f0554d81dd45");
+                _textInfo = new RepoItemInfo(this, "Text", "div/div[2]/main/main//span/div/div[2]/div/div[3]/div[2]/?/?/input[@type='text']", 30000, null, "572750b3-89e7-4588-a97b-5a3b338c6f90");
+                _selectmenuInfo = new RepoItemInfo(this, "SelectMenu", "div/div[2]/main/main//span/div/div[2]/div/div[3]/div[3]/div[2]/div", 30000, null, "53370510-60a3-426d-ba53-8508e3ac9a74");
+                _webelementsvg2Info = new RepoItemInfo(this, "WebElementSvg2", "div/div[2]/main/main//span/div[1]/div[2]/div/div[1]/tag[@tagname='svg']", 30000, null, "93d694cf-6f6c-4203-858e-11c580d7e673");
+                _iconbuttoniconbuttonprimaryripple2Info = new RepoItemInfo(this, "IconButtonIconButtonPrimaryRipple2", "div/div[2]/main/main//span/div[1]/div[2]/div/div[3]/div[3]", 30000, null, "0f9e510d-dc6f-4144-aa15-06066bf1cb35");
+                _iconbuttoniconbuttonprimaryripple3Info = new RepoItemInfo(this, "IconButtonIconButtonPrimaryRipple3", "div/div[2]/main/main//span/div[2]/div[2]/div/div[3]/div[3]", 30000, null, "c7ac0e38-06bc-4465-843b-033bc14cf239");
+                _iconbuttoniconbuttonprimaryripple1Info = new RepoItemInfo(this, "IconButtonIconButtonPrimaryRipple1", "div/div[2]/main/main//span/div[2]/div[2]/div/div[3]/div[4]", 30000, null, "158b997a-934d-4313-8568-739b2b4779d4");
+                _divtag2023Info = new RepoItemInfo(this, "DivTag2023", "div/div[2]/main/main/div/?/?/span/div/div[2]/div/div[3]/div[3]//div[@innertext='2023']", 30000, null, "535fce5a-80b2-48d5-9ab4-afbb92e91690");
+                _selectvalueInfo = new RepoItemInfo(this, "SelectValue", "div/div[2]/main/main/div/?/?/span/div/div[2]/div/div[3]/div[3]/div/span[1]/div[1]", 30000, null, "9539ddd4-12b0-4bd3-8045-ce16d544c75f");
+                _path1Info = new RepoItemInfo(this, "Path1", "div/div[2]/main/main/div/?/?/span/div[2]/div[2]/div/div[1]/?/?/tag[@tagname='g']/tag[3]", 30000, null, "b6c7034a-7a09-445c-a08e-078aa7000814");
+                _divtag2026Info = new RepoItemInfo(this, "DivTag2026", "div/div[2]/main/main/div/?/?/span/div[2]/div[2]/div/div[3]/div[3]//div[@innertext='2026']", 30000, null, "bc214693-30bf-4500-bc9e-a01124f9153f");
+                _selectarrowInfo = new RepoItemInfo(this, "SelectArrow", "div/div[2]/main/main/div/?/?/span/div[2]/div[2]/div/div[3]/div[3]/div/span[2]/span", 30000, null, "33e8c320-956d-4f11-908e-2bd522ac714c");
+                _addbuttoncontentInfo = new RepoItemInfo(this, "AddButtonContent", "div/div[2]/main/main/div/div[2]/div/div", 30000, null, "5ecfcea1-8ff0-461e-97f9-f3f12300ebd2");
+                _bubblecontentInfo = new RepoItemInfo(this, "BubbleContent", "div/div[2]/main/main//span/div[1]/div[2]", 30000, null, "86c2c28a-f51e-43b8-801b-6cfc1928402e");
+                _bubblecontent1Info = new RepoItemInfo(this, "BubbleContent1", "div/div[2]/main/main//span/div[2]/div[2]", 30000, null, "75dfec50-e337-4df6-af24-9ff9aaef3bb3");
+                _gespraechsterminvereinbarenInfo = new RepoItemInfo(this, "GespraechsterminVereinbaren", ".//footer/a[@href>'https://mlp-financify.de/']//span[@innertext>'Gesprächstermin vereinbar']", 30000, null, "4a2f8219-16ad-486d-8e1a-9563170d0963");
+                _webelementsvg3Info = new RepoItemInfo(this, "WebElementSvg3", "div/div[2]/main/main//span/div[1]/div[2]/div/div[3]/div[3]/?/?/tag[@tagname='svg']", 30000, null, "dd895f88-ea65-4fb9-94d0-db86daa88c28");
+                _webelementsvg4Info = new RepoItemInfo(this, "WebElementSvg4", "div/div[2]/main/main//span/div[2]/div[2]/div/div[1]/tag[@tagname='svg']", 30000, null, "a6f8c7f1-a943-496b-95c9-fffb9c622f91");
+                _webelementsvg5Info = new RepoItemInfo(this, "WebElementSvg5", "div/div[2]/main/main//span/div[2]/div[2]/div/div[3]/div[3]/?/?/tag[@tagname='svg']", 30000, null, "5328ea49-1cd7-4f79-896d-93530eea28db");
+                _path2Info = new RepoItemInfo(this, "Path2", ".//main/main/div/div[2]/label/div/div[1]/div[3]/?/?/tag[@tagname='path']", 30000, null, "162a3e14-e0e1-4216-a705-248f4cd16e20");
+                _webelementsvg6Info = new RepoItemInfo(this, "WebElementSvg6", "div/div[2]/footer/div[2]/div[2]/div[1]/tag[@tagname='svg']", 30000, null, "d7ab97c7-7808-4e1f-a3e8-633210ff3f8a");
+                _processstepprocessstepcompletedInfo = new ProcessStepProcessStepCompletedInfoClass(this);
+                _wuenscheInfo = new RepoItemInfo(this, "Wuensche", ".//main/div/div[2]/div[@innertext='Wünsche']", 30000, null, "b55ed57a-e73e-451d-8de1-b4752a574de5");
+            }
+
+            /// <summary>
+            /// The ButtonButtonPrimaryRippleParent1InfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("8b2f55d8-2a10-4ed2-a7f5-8b9a0f552aa0")]
+            public class ButtonButtonPrimaryRippleParent1InfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// ButtonButtonPrimaryRippleParent1InfoClass class constructor.
+                /// </summary>
+                public ButtonButtonPrimaryRippleParent1InfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "ButtonButtonPrimaryRippleParent1", ".//a[@href>'https://mlp-financify.de/']/div", 30000, null, "8b2f55d8-2a10-4ed2-a7f5-8b9a0f552aa0")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("5fa8574b-a3ac-40f3-bf37-0fdc8ea9e883")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("5fa8574b-a3ac-40f3-bf37-0fdc8ea9e883");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("5fa8574b-a3ac-40f3-bf37-0fdc8ea9e883")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("5fa8574b-a3ac-40f3-bf37-0fdc8ea9e883", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The ProcessStepProcessStepCompletedInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("62c25501-ae1a-4be5-88f0-b236ca9a9b7c")]
+            public class ProcessStepProcessStepCompletedInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// ProcessStepProcessStepCompletedInfoClass class constructor.
+                /// </summary>
+                public ProcessStepProcessStepCompletedInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "ProcessStepProcessStepCompleted", ".//main/div/div[1]", 30000, null, "62c25501-ae1a-4be5-88f0-b236ca9a9b7c")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("b6a1e687-bb63-4e01-8c0d-a4ef2c5acf90")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("b6a1e687-bb63-4e01-8c0d-a4ef2c5acf90");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("b6a1e687-bb63-4e01-8c0d-a4ef2c5acf90")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("b6a1e687-bb63-4e01-8c0d-a4ef2c5acf90", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("f0cbcab7-0f0d-45dd-9858-40058b664abb")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("f0cbcab7-0f0d-45dd-9858-40058b664abb")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonButtonPrimaryRippleParent1 item.
+            /// </summary>
+            [RepositoryItem("8b2f55d8-2a10-4ed2-a7f5-8b9a0f552aa0")]
+            public virtual Ranorex.DivTag ButtonButtonPrimaryRippleParent1
+            {
+                get
+                {
+                    return _buttonbuttonprimaryrippleparent1Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonButtonPrimaryRippleParent1 item info.
+            /// </summary>
+            [RepositoryItemInfo("8b2f55d8-2a10-4ed2-a7f5-8b9a0f552aa0")]
+            public virtual ButtonButtonPrimaryRippleParent1InfoClass ButtonButtonPrimaryRippleParent1Info
+            {
+                get
+                {
+                    return _buttonbuttonprimaryrippleparent1Info;
+                }
+            }
+
+            /// <summary>
+            /// The IconButtonIconButtonPrimaryRipple item.
+            /// </summary>
+            [RepositoryItem("fe0f207c-a4f1-48d7-8352-c4051c8a2bef")]
+            public virtual Ranorex.DivTag IconButtonIconButtonPrimaryRipple
+            {
+                get
+                {
+                    return _iconbuttoniconbuttonprimaryrippleInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IconButtonIconButtonPrimaryRipple item info.
+            /// </summary>
+            [RepositoryItemInfo("fe0f207c-a4f1-48d7-8352-c4051c8a2bef")]
+            public virtual RepoItemInfo IconButtonIconButtonPrimaryRippleInfo
+            {
+                get
+                {
+                    return _iconbuttoniconbuttonprimaryrippleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Path item.
+            /// </summary>
+            [RepositoryItem("afa143e9-5b42-4713-8b26-b8f52a5b0f03")]
+            public virtual Ranorex.WebElement Path
+            {
+                get
+                {
+                    return _pathInfo.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Path item info.
+            /// </summary>
+            [RepositoryItemInfo("afa143e9-5b42-4713-8b26-b8f52a5b0f03")]
+            public virtual RepoItemInfo PathInfo
+            {
+                get
+                {
+                    return _pathInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RadioButtonIcon item.
+            /// </summary>
+            [RepositoryItem("25946474-3929-484f-9139-dceb435d05ce")]
+            public virtual Ranorex.DivTag RadioButtonIcon
+            {
+                get
+                {
+                    return _radiobuttoniconInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RadioButtonIcon item info.
+            /// </summary>
+            [RepositoryItemInfo("25946474-3929-484f-9139-dceb435d05ce")]
+            public virtual RepoItemInfo RadioButtonIconInfo
+            {
+                get
+                {
+                    return _radiobuttoniconInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg item.
+            /// </summary>
+            [RepositoryItem("959c77fd-c085-4580-9fd0-681195a1dc1a")]
+            public virtual Ranorex.WebElement WebElementSvg
+            {
+                get
+                {
+                    return _webelementsvgInfo.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg item info.
+            /// </summary>
+            [RepositoryItemInfo("959c77fd-c085-4580-9fd0-681195a1dc1a")]
+            public virtual RepoItemInfo WebElementSvgInfo
+            {
+                get
+                {
+                    return _webelementsvgInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg1 item.
+            /// </summary>
+            [RepositoryItem("c36adf10-d3e2-4ea2-935a-f0554d81dd45")]
+            public virtual Ranorex.WebElement WebElementSvg1
+            {
+                get
+                {
+                    return _webelementsvg1Info.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg1 item info.
+            /// </summary>
+            [RepositoryItemInfo("c36adf10-d3e2-4ea2-935a-f0554d81dd45")]
+            public virtual RepoItemInfo WebElementSvg1Info
+            {
+                get
+                {
+                    return _webelementsvg1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text item.
+            /// </summary>
+            [RepositoryItem("572750b3-89e7-4588-a97b-5a3b338c6f90")]
+            public virtual Ranorex.InputTag Text
+            {
+                get
+                {
+                    return _textInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text item info.
+            /// </summary>
+            [RepositoryItemInfo("572750b3-89e7-4588-a97b-5a3b338c6f90")]
+            public virtual RepoItemInfo TextInfo
+            {
+                get
+                {
+                    return _textInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SelectMenu item.
+            /// </summary>
+            [RepositoryItem("53370510-60a3-426d-ba53-8508e3ac9a74")]
+            public virtual Ranorex.DivTag SelectMenu
+            {
+                get
+                {
+                    return _selectmenuInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SelectMenu item info.
+            /// </summary>
+            [RepositoryItemInfo("53370510-60a3-426d-ba53-8508e3ac9a74")]
+            public virtual RepoItemInfo SelectMenuInfo
+            {
+                get
+                {
+                    return _selectmenuInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg2 item.
+            /// </summary>
+            [RepositoryItem("93d694cf-6f6c-4203-858e-11c580d7e673")]
+            public virtual Ranorex.WebElement WebElementSvg2
+            {
+                get
+                {
+                    return _webelementsvg2Info.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg2 item info.
+            /// </summary>
+            [RepositoryItemInfo("93d694cf-6f6c-4203-858e-11c580d7e673")]
+            public virtual RepoItemInfo WebElementSvg2Info
+            {
+                get
+                {
+                    return _webelementsvg2Info;
+                }
+            }
+
+            /// <summary>
+            /// The IconButtonIconButtonPrimaryRipple2 item.
+            /// </summary>
+            [RepositoryItem("0f9e510d-dc6f-4144-aa15-06066bf1cb35")]
+            public virtual Ranorex.DivTag IconButtonIconButtonPrimaryRipple2
+            {
+                get
+                {
+                    return _iconbuttoniconbuttonprimaryripple2Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IconButtonIconButtonPrimaryRipple2 item info.
+            /// </summary>
+            [RepositoryItemInfo("0f9e510d-dc6f-4144-aa15-06066bf1cb35")]
+            public virtual RepoItemInfo IconButtonIconButtonPrimaryRipple2Info
+            {
+                get
+                {
+                    return _iconbuttoniconbuttonprimaryripple2Info;
+                }
+            }
+
+            /// <summary>
+            /// The IconButtonIconButtonPrimaryRipple3 item.
+            /// </summary>
+            [RepositoryItem("c7ac0e38-06bc-4465-843b-033bc14cf239")]
+            public virtual Ranorex.DivTag IconButtonIconButtonPrimaryRipple3
+            {
+                get
+                {
+                    return _iconbuttoniconbuttonprimaryripple3Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IconButtonIconButtonPrimaryRipple3 item info.
+            /// </summary>
+            [RepositoryItemInfo("c7ac0e38-06bc-4465-843b-033bc14cf239")]
+            public virtual RepoItemInfo IconButtonIconButtonPrimaryRipple3Info
+            {
+                get
+                {
+                    return _iconbuttoniconbuttonprimaryripple3Info;
+                }
+            }
+
+            /// <summary>
+            /// The IconButtonIconButtonPrimaryRipple1 item.
+            /// </summary>
+            [RepositoryItem("158b997a-934d-4313-8568-739b2b4779d4")]
+            public virtual Ranorex.DivTag IconButtonIconButtonPrimaryRipple1
+            {
+                get
+                {
+                    return _iconbuttoniconbuttonprimaryripple1Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IconButtonIconButtonPrimaryRipple1 item info.
+            /// </summary>
+            [RepositoryItemInfo("158b997a-934d-4313-8568-739b2b4779d4")]
+            public virtual RepoItemInfo IconButtonIconButtonPrimaryRipple1Info
+            {
+                get
+                {
+                    return _iconbuttoniconbuttonprimaryripple1Info;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag2023 item.
+            /// </summary>
+            [RepositoryItem("535fce5a-80b2-48d5-9ab4-afbb92e91690")]
+            public virtual Ranorex.DivTag DivTag2023
+            {
+                get
+                {
+                    return _divtag2023Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag2023 item info.
+            /// </summary>
+            [RepositoryItemInfo("535fce5a-80b2-48d5-9ab4-afbb92e91690")]
+            public virtual RepoItemInfo DivTag2023Info
+            {
+                get
+                {
+                    return _divtag2023Info;
+                }
+            }
+
+            /// <summary>
+            /// The SelectValue item.
+            /// </summary>
+            [RepositoryItem("9539ddd4-12b0-4bd3-8045-ce16d544c75f")]
+            public virtual Ranorex.DivTag SelectValue
+            {
+                get
+                {
+                    return _selectvalueInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SelectValue item info.
+            /// </summary>
+            [RepositoryItemInfo("9539ddd4-12b0-4bd3-8045-ce16d544c75f")]
+            public virtual RepoItemInfo SelectValueInfo
+            {
+                get
+                {
+                    return _selectvalueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Path1 item.
+            /// </summary>
+            [RepositoryItem("b6c7034a-7a09-445c-a08e-078aa7000814")]
+            public virtual Ranorex.WebElement Path1
+            {
+                get
+                {
+                    return _path1Info.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Path1 item info.
+            /// </summary>
+            [RepositoryItemInfo("b6c7034a-7a09-445c-a08e-078aa7000814")]
+            public virtual RepoItemInfo Path1Info
+            {
+                get
+                {
+                    return _path1Info;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag2026 item.
+            /// </summary>
+            [RepositoryItem("bc214693-30bf-4500-bc9e-a01124f9153f")]
+            public virtual Ranorex.DivTag DivTag2026
+            {
+                get
+                {
+                    return _divtag2026Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag2026 item info.
+            /// </summary>
+            [RepositoryItemInfo("bc214693-30bf-4500-bc9e-a01124f9153f")]
+            public virtual RepoItemInfo DivTag2026Info
+            {
+                get
+                {
+                    return _divtag2026Info;
+                }
+            }
+
+            /// <summary>
+            /// The SelectArrow item.
+            /// </summary>
+            [RepositoryItem("33e8c320-956d-4f11-908e-2bd522ac714c")]
+            public virtual Ranorex.SpanTag SelectArrow
+            {
+                get
+                {
+                    return _selectarrowInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SelectArrow item info.
+            /// </summary>
+            [RepositoryItemInfo("33e8c320-956d-4f11-908e-2bd522ac714c")]
+            public virtual RepoItemInfo SelectArrowInfo
+            {
+                get
+                {
+                    return _selectarrowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddButtonContent item.
+            /// </summary>
+            [RepositoryItem("5ecfcea1-8ff0-461e-97f9-f3f12300ebd2")]
+            public virtual Ranorex.DivTag AddButtonContent
+            {
+                get
+                {
+                    return _addbuttoncontentInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddButtonContent item info.
+            /// </summary>
+            [RepositoryItemInfo("5ecfcea1-8ff0-461e-97f9-f3f12300ebd2")]
+            public virtual RepoItemInfo AddButtonContentInfo
+            {
+                get
+                {
+                    return _addbuttoncontentInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BubbleContent item.
+            /// </summary>
+            [RepositoryItem("86c2c28a-f51e-43b8-801b-6cfc1928402e")]
+            public virtual Ranorex.DivTag BubbleContent
+            {
+                get
+                {
+                    return _bubblecontentInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BubbleContent item info.
+            /// </summary>
+            [RepositoryItemInfo("86c2c28a-f51e-43b8-801b-6cfc1928402e")]
+            public virtual RepoItemInfo BubbleContentInfo
+            {
+                get
+                {
+                    return _bubblecontentInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BubbleContent1 item.
+            /// </summary>
+            [RepositoryItem("75dfec50-e337-4df6-af24-9ff9aaef3bb3")]
+            public virtual Ranorex.DivTag BubbleContent1
+            {
+                get
+                {
+                    return _bubblecontent1Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BubbleContent1 item info.
+            /// </summary>
+            [RepositoryItemInfo("75dfec50-e337-4df6-af24-9ff9aaef3bb3")]
+            public virtual RepoItemInfo BubbleContent1Info
+            {
+                get
+                {
+                    return _bubblecontent1Info;
+                }
+            }
+
+            /// <summary>
+            /// The GespraechsterminVereinbaren item.
+            /// </summary>
+            [RepositoryItem("4a2f8219-16ad-486d-8e1a-9563170d0963")]
+            public virtual Ranorex.SpanTag GespraechsterminVereinbaren
+            {
+                get
+                {
+                    return _gespraechsterminvereinbarenInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GespraechsterminVereinbaren item info.
+            /// </summary>
+            [RepositoryItemInfo("4a2f8219-16ad-486d-8e1a-9563170d0963")]
+            public virtual RepoItemInfo GespraechsterminVereinbarenInfo
+            {
+                get
+                {
+                    return _gespraechsterminvereinbarenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg3 item.
+            /// </summary>
+            [RepositoryItem("dd895f88-ea65-4fb9-94d0-db86daa88c28")]
+            public virtual Ranorex.WebElement WebElementSvg3
+            {
+                get
+                {
+                    return _webelementsvg3Info.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg3 item info.
+            /// </summary>
+            [RepositoryItemInfo("dd895f88-ea65-4fb9-94d0-db86daa88c28")]
+            public virtual RepoItemInfo WebElementSvg3Info
+            {
+                get
+                {
+                    return _webelementsvg3Info;
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg4 item.
+            /// </summary>
+            [RepositoryItem("a6f8c7f1-a943-496b-95c9-fffb9c622f91")]
+            public virtual Ranorex.WebElement WebElementSvg4
+            {
+                get
+                {
+                    return _webelementsvg4Info.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg4 item info.
+            /// </summary>
+            [RepositoryItemInfo("a6f8c7f1-a943-496b-95c9-fffb9c622f91")]
+            public virtual RepoItemInfo WebElementSvg4Info
+            {
+                get
+                {
+                    return _webelementsvg4Info;
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg5 item.
+            /// </summary>
+            [RepositoryItem("5328ea49-1cd7-4f79-896d-93530eea28db")]
+            public virtual Ranorex.WebElement WebElementSvg5
+            {
+                get
+                {
+                    return _webelementsvg5Info.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg5 item info.
+            /// </summary>
+            [RepositoryItemInfo("5328ea49-1cd7-4f79-896d-93530eea28db")]
+            public virtual RepoItemInfo WebElementSvg5Info
+            {
+                get
+                {
+                    return _webelementsvg5Info;
+                }
+            }
+
+            /// <summary>
+            /// The Path2 item.
+            /// </summary>
+            [RepositoryItem("162a3e14-e0e1-4216-a705-248f4cd16e20")]
+            public virtual Ranorex.WebElement Path2
+            {
+                get
+                {
+                    return _path2Info.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Path2 item info.
+            /// </summary>
+            [RepositoryItemInfo("162a3e14-e0e1-4216-a705-248f4cd16e20")]
+            public virtual RepoItemInfo Path2Info
+            {
+                get
+                {
+                    return _path2Info;
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg6 item.
+            /// </summary>
+            [RepositoryItem("d7ab97c7-7808-4e1f-a3e8-633210ff3f8a")]
+            public virtual Ranorex.WebElement WebElementSvg6
+            {
+                get
+                {
+                    return _webelementsvg6Info.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg6 item info.
+            /// </summary>
+            [RepositoryItemInfo("d7ab97c7-7808-4e1f-a3e8-633210ff3f8a")]
+            public virtual RepoItemInfo WebElementSvg6Info
+            {
+                get
+                {
+                    return _webelementsvg6Info;
+                }
+            }
+
+            /// <summary>
+            /// The ProcessStepProcessStepCompleted item.
+            /// </summary>
+            [RepositoryItem("62c25501-ae1a-4be5-88f0-b236ca9a9b7c")]
+            public virtual Ranorex.DivTag ProcessStepProcessStepCompleted
+            {
+                get
+                {
+                    return _processstepprocessstepcompletedInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ProcessStepProcessStepCompleted item info.
+            /// </summary>
+            [RepositoryItemInfo("62c25501-ae1a-4be5-88f0-b236ca9a9b7c")]
+            public virtual ProcessStepProcessStepCompletedInfoClass ProcessStepProcessStepCompletedInfo
+            {
+                get
+                {
+                    return _processstepprocessstepcompletedInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Wuensche item.
+            /// </summary>
+            [RepositoryItem("b55ed57a-e73e-451d-8de1-b4752a574de5")]
+            public virtual Ranorex.DivTag Wuensche
+            {
+                get
+                {
+                    return _wuenscheInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Wuensche item info.
+            /// </summary>
+            [RepositoryItemInfo("b55ed57a-e73e-451d-8de1-b4752a574de5")]
+            public virtual RepoItemInfo WuenscheInfo
+            {
+                get
+                {
+                    return _wuenscheInfo;
                 }
             }
         }

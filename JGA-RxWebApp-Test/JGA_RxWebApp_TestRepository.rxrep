@@ -18,7 +18,7 @@ name="JGA_RxWebApp_TestRepository">
 		id="3560883d-df7f-489a-9273-0c75cf95131e"
 		isrooted="True"
 		name="ApplicationUnderTest"
-		refimgid="6bb4e51b-8bf2-4683-9f03-8280f5b6a3cf"
+		refimgid="a7f273dc-e3a4-42b9-8248-6a3a0746c911"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
@@ -71,6 +71,361 @@ name="JGA_RxWebApp_TestRepository">
 			searchtimeout="30000ms">
 				/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div//span[@innertext='1994']
 			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="f0cbcab7-0f0d-45dd-9858-40058b664abb"
+			isrooted="True"
+			name="PgfLightRoot"
+			refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="8b2f55d8-2a10-4ed2-a7f5-8b9a0f552aa0"
+				name="ButtonButtonPrimaryRippleParent1"
+				refimgid="8950b8a2-58a9-49ca-a75f-0d0bcd112d7b"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/footer/a[@href='https://mlp-financify.de/formulare/kontakt/?ref=budget-guide-light']/div"
+				searchtimeout="30000ms">
+					<image
+					guid="5fa8574b-a3ac-40f3-bf37-0fdc8ea9e883"
+					name="Screenshot1">
+						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
+					</image>
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//a[@href&gt;'https://mlp-financify.de/']/div
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="fe0f207c-a4f1-48d7-8352-c4051c8a2bef"
+				name="IconButtonIconButtonPrimaryRipple"
+				refimgid="fc2f706b-d833-4c07-8615-d880ad4159fe"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/footer/div[2]/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//footer/div[2]/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="afa143e9-5b42-4713-8b26-b8f52a5b0f03"
+				name="Path"
+				refimgid="ca144c16-19bf-45a0-8c46-788149e0129a"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/footer/div[2]/div[2]/div[1]/tag/tag[@tagname='path']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//footer/div[2]/div[2]/div[1]/tag[@tagname='svg']/tag[@tagname='path']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="25946474-3929-484f-9139-dceb435d05ce"
+				name="RadioButtonIcon"
+				refimgid="9cd15d8b-9676-4db9-a905-f137cdc32bf0"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[2]/label/div/div[1]/div[3]"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div[2]/label/div/div[1]/div[3]
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="959c77fd-c085-4580-9fd0-681195a1dc1a"
+				name="WebElementSvg"
+				refimgid="69009193-1e54-4c55-afc6-d2e3f0c69103"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div/div[2]/div/div[2]/div[2]/div[1]/tag[@tagname='svg']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main//span/div/div[2]/div/div[2]/div[2]/div[1]/tag[@tagname='svg']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="c36adf10-d3e2-4ea2-935a-f0554d81dd45"
+				name="WebElementSvg1"
+				refimgid="e66c6bc1-a1ce-48b5-8464-d70adf89b1e7"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[2]/div[2]/div/div[2]/div[2]/div[6]/tag[@tagname='svg']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main//span/div[2]/div[2]/div/div[2]/div[2]/div[6]/tag[@tagname='svg']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="572750b3-89e7-4588-a97b-5a3b338c6f90"
+				name="Text"
+				refimgid="3234b7ef-e78d-4b1a-9823-7a39169b3478"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div/div[2]/div/div[3]/div[2]/div[1]/input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div/div[2]/div/div[3]/div[2]/?/?/input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="53370510-60a3-426d-ba53-8508e3ac9a74"
+				name="SelectMenu"
+				refimgid="99283a39-467d-4813-b85d-4bb443cbb4b9"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div/div[2]/div/div[3]/div[3]/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div/div[2]/div/div[3]/div[3]/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="93d694cf-6f6c-4203-858e-11c580d7e673"
+				name="WebElementSvg2"
+				refimgid="02a3f3eb-976b-47b5-863a-73df377473ab"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[1]/div[2]/div/div[1]/tag[@tagname='svg']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div[1]/div[2]/div/div[1]/tag[@tagname='svg']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="0f9e510d-dc6f-4144-aa15-06066bf1cb35"
+				name="IconButtonIconButtonPrimaryRipple2"
+				refimgid="43eac86d-c23d-4f6d-90b1-184d48403656"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[1]/div[2]/div/div[3]/div[3]"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div[1]/div[2]/div/div[3]/div[3]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="c7ac0e38-06bc-4465-843b-033bc14cf239"
+				name="IconButtonIconButtonPrimaryRipple3"
+				refimgid="f3bc4138-e602-42cf-8544-f62b1514f05d"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[2]/div[2]/div/div[3]/div[3]"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div[2]/div[2]/div/div[3]/div[3]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="158b997a-934d-4313-8568-739b2b4779d4"
+				name="IconButtonIconButtonPrimaryRipple1"
+				refimgid="90d9390d-b9ea-4b4c-b0fc-b844754cbe05"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[2]/div[2]/div/div[3]/div[4]"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div[2]/div[2]/div/div[3]/div[4]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="535fce5a-80b2-48d5-9ab4-afbb92e91690"
+				name="DivTag2023"
+				refimgid="13d84d34-e49e-48ac-9948-19bb245725ba"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div/div[2]/div/div[3]/div[3]/div[2]/div/div[@innertext='2023']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/?/?/span/div/div[2]/div/div[3]/div[3]//div[@innertext='2023']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="9539ddd4-12b0-4bd3-8045-ce16d544c75f"
+				name="SelectValue"
+				refimgid="8532d285-308c-4bc0-ab56-f67e2c1eb71d"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div/div[2]/div/div[3]/div[3]/div/span[1]/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/?/?/span/div/div[2]/div/div[3]/div[3]/div/span[1]/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="b6c7034a-7a09-445c-a08e-078aa7000814"
+				name="Path1"
+				refimgid="4fa2a708-2a68-4138-866e-9fb4fc5df4a2"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[2]/div[2]/div/div[1]/tag/tag[@tagname='g']/tag[3]"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/?/?/span/div[2]/div[2]/div/div[1]/?/?/tag[@tagname='g']/tag[3]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="bc214693-30bf-4500-bc9e-a01124f9153f"
+				name="DivTag2026"
+				refimgid="8e8651a4-4cea-4111-8f32-da475544c1fe"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[2]/div[2]/div/div[3]/div[3]/div[2]/div/div[@innertext='2026']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/?/?/span/div[2]/div[2]/div/div[3]/div[3]//div[@innertext='2026']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="33e8c320-956d-4f11-908e-2bd522ac714c"
+				name="SelectArrow"
+				refimgid="75b670ce-c44b-4004-8564-df3209ffdea5"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[2]/div[2]/div/div[3]/div[3]/div/span[2]/span"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/?/?/span/div[2]/div[2]/div/div[3]/div[3]/div/span[2]/span
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="5ecfcea1-8ff0-461e-97f9-f3f12300ebd2"
+				name="AddButtonContent"
+				refimgid="9417c529-1195-4a83-9ee8-1045de9e153d"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[2]/div/div"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[2]/div/div
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="86c2c28a-f51e-43b8-801b-6cfc1928402e"
+				name="BubbleContent"
+				refimgid="3ccf825d-0370-4067-99c9-8c843daa4b90"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[1]/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div[1]/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="75dfec50-e337-4df6-af24-9ff9aaef3bb3"
+				name="BubbleContent1"
+				refimgid="2927ff97-dff1-49c5-97ff-0d4293f5f087"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[2]/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div[2]/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="4a2f8219-16ad-486d-8e1a-9563170d0963"
+				name="GespraechsterminVereinbaren"
+				refimgid="dd70d503-d145-4e80-b89c-d8f72de2a6b1"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/footer/a[@href='https://mlp-financify.de/formulare/kontakt/?ref=budget-guide-light']/div/div[1]/span[@innertext='Gesprächstermin vereinbaren']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//footer/a[@href&gt;'https://mlp-financify.de/']//span[@innertext&gt;'Gespr&#228;chstermin vereinbar']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="dd895f88-ea65-4fb9-94d0-db86daa88c28"
+				name="WebElementSvg3"
+				refimgid="0a2cf921-11ef-430b-a501-88e4c5cc7593"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[1]/div[2]/div/div[3]/div[3]/div[1]/tag[@tagname='svg']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div[1]/div[2]/div/div[3]/div[3]/?/?/tag[@tagname='svg']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="a6f8c7f1-a943-496b-95c9-fffb9c622f91"
+				name="WebElementSvg4"
+				refimgid="f01175c6-83ca-43f4-b31b-e14ad89630e3"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[2]/div[2]/div/div[1]/tag[@tagname='svg']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div[2]/div[2]/div/div[1]/tag[@tagname='svg']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="5328ea49-1cd7-4f79-896d-93530eea28db"
+				name="WebElementSvg5"
+				refimgid="d20a30bf-5fb2-4a66-90fd-c8f1dc61a36f"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[1]/span/div[2]/div[2]/div/div[3]/div[3]/div[1]/tag[@tagname='svg']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main//span/div[2]/div[2]/div/div[3]/div[3]/?/?/tag[@tagname='svg']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="162a3e14-e0e1-4216-a705-248f4cd16e20"
+				name="Path2"
+				refimgid="c0bf3067-37da-4334-a14c-826080b6c7f4"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div[2]/label/div/div[1]/div[3]/tag/tag[@tagname='path']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div[2]/label/div/div[1]/div[3]/?/?/tag[@tagname='path']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="d7ab97c7-7808-4e1f-a3e8-633210ff3f8a"
+				name="WebElementSvg6"
+				refimgid="7bbff407-d60f-4eb9-aa09-5302f27c56f9"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/footer/div[2]/div[2]/div[1]/tag[@tagname='svg']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/footer/div[2]/div[2]/div[1]/tag[@tagname='svg']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="62c25501-ae1a-4be5-88f0-b236ca9a9b7c"
+				name="ProcessStepProcessStepCompleted"
+				refimgid="c4cca8f1-7a76-403e-8ee2-ddddae955d21"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/div/div[1]"
+				searchtimeout="30000ms">
+					<image
+					guid="b6a1e687-bb63-4e01-8c0d-a4ef2c5acf90"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAACoAAAA+CAYAAABdhInWAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAA1pJREFUaEPtmM9rE0EUgPefshdRQRC8CvoHiPZQFS14EtqDirYFQSp4
+UAuCFQoFD+qxordQPCmKaKti8QcSRCulWGKTMd/AWyaTmXU3O7N2JYGPprNv3nyZ3XkzSdLpdNSg
+NF6sqOv3ltTozJw6eHZG7R47r3Ydn1QjXXhPG9eIIdaVIy+FRZ+tfFATNxe1yP7Tl9TI6KSWy4IY
+YulDX3K4cmeRW5TkzM6+UxedMkUgB7mKCOcSnb77QO05ccE5aBnISW7XmDaZom/WvqhD566qvSfL
+z6IPcjMGY7kcBK8oD78sjipgrKwF5xSlAyvXlTAmjOmT7RPlFlQ5kzaM7XoM+kR5XlwJqgQH26tH
+lBUYc+HkBQe7GqSi1LQYJWhQcDHrbCpKAXZ1+Jfg1COKeYgdJzQ4yaxqUfZfV2ARxq/Nq4VHDfX8
+7Zpa39hUqx+/OuOKglsqWqYcLT5eVtvttrJf7z83nfFFwU2LUmA52biC8rD8clWLtbuyW62WTsor
+lChuOCacFfMc1XyMXbmt4f3cwyeq9Xs7qChuOCYhV3sMUcAx4RTuujgIsURxTELu67FEcUxCnpJi
+iULiahyUWKJMZn1ufW0WU23KU9mCbxJDNC34ZbdQkxii6RZa5lDC1tn88VOLZb2IkW22KLilp6dB
+j3lViPYc82pzcIaQqz8UOIlfKop5Lb7cQS2+Lgu1+AECavOTDlBgd/yPZAIdqpxZxvJJglcUuAU8
+LzEXGLkZw3W7TTJFBVZgjNJFTnt1+8glCtQ0CnCIHYwc5DLr5N/ILSqQnP2XZ4qTTZ4jIjHE0oe+
+RQSFwqImPPycFZkdTuGISLXgPW1cIyZroeShlGiVDEVDMxQNzVA0NEPR0PwfogtLDb0dmtvf6+5x
+7MD4VNq2+WtLnZm907O3w5GJWfWp+b3vGn3JQX9Xu4xj4xUVgaOXb+i//E+7LWoyNX+/J1Zy0G7H
+0t+UI4YP9219oy8WvKIkODZ9Syc83E0gCWOJ2v/beEVJDjIYjwHtg4iat1iu22L0LTyjBNNJ5EyB
+kDNqfoCs2QSnqJ3ETBRSlDwcookx+7lwitoDygzTHlrU/PCuOKFP1L7tAklof/rqnU5qzrYM4BM1
+Y0XOFCVWSqE9ruBdTDuNmoh21B+Dv/s8+bw/ogAAAABJRU5ErkJggg==
+					</image>
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/div/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="b55ed57a-e73e-451d-8de1-b4752a574de5"
+				name="Wuensche"
+				refimgid="f7408a55-c06f-4b75-b7ca-8b6a7a03ed56"
+				refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/div/div[2]/div[@innertext='Wünsche']"
+				searchtimeout="30000ms">
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/div/div[2]/div[@innertext='W&#252;nsche']
+				</item>
+				<basepath>
+					/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']
+				</basepath>
+			</folder>
 			<basepath>
 				/dom[@domain='mlp-financify.de']
 			</basepath>

@@ -73,38 +73,73 @@ namespace JGA_RxWebApp_Test
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 0;
+            Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 20;
-            Delay.SpeedFactor = 0.00;
+            Delay.SpeedFactor = 1.00;
 
             Init();
 
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'ApplicationUnderTest.BudgetguideLight' at Center.", repo.ApplicationUnderTest.BudgetguideLightInfo, new RecordItemIndex(0));
             repo.ApplicationUnderTest.BudgetguideLight.DoubleClick();
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ButtonRippleParent' at 38;13.", repo.ApplicationUnderTest.ButtonRippleParentInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.ButtonRippleParent.Click("38;13");
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ButtonButtonPrimaryRippleParent' at 97;10.", repo.ApplicationUnderTest.ButtonButtonPrimaryRippleParentInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.ButtonButtonPrimaryRippleParent.Click("97;10");
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.InputRangeSlider' at 11;13.", repo.ApplicationUnderTest.InputRangeSliderInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=42,Height=62}) on item 'ApplicationUnderTest.PgfLightRoot.ProcessStepProcessStepCompleted'.", repo.ApplicationUnderTest.PgfLightRoot.ProcessStepProcessStepCompletedInfo, new RecordItemIndex(3));
+            Validate.CompareImage(repo.ApplicationUnderTest.PgfLightRoot.ProcessStepProcessStepCompletedInfo, ProcessStepProcessStepCompleted_Screenshot1, ProcessStepProcessStepCompleted_Screenshot1_Options);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.InputRangeSlider' at 11;13.", repo.ApplicationUnderTest.InputRangeSliderInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.InputRangeSlider.Click("11;13");
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'ApplicationUnderTest.InputRangeSlider' at 9;11.", repo.ApplicationUnderTest.InputRangeSliderInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'ApplicationUnderTest.InputRangeSlider' at 9;11.", repo.ApplicationUnderTest.InputRangeSliderInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.InputRangeSlider.MoveTo("9;11");
             Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'ApplicationUnderTest.InputRangeSlider' at 72;15.", repo.ApplicationUnderTest.InputRangeSliderInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'ApplicationUnderTest.InputRangeSlider' at 72;15.", repo.ApplicationUnderTest.InputRangeSliderInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.InputRangeSlider.MoveTo("72;15");
             Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.InputRangeSlider' at 13;12.", repo.ApplicationUnderTest.InputRangeSliderInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.InputRangeSlider' at 13;12.", repo.ApplicationUnderTest.InputRangeSliderInfo, new RecordItemIndex(7));
             repo.ApplicationUnderTest.InputRangeSlider.Click("13;12");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PgfLightRoot.IconButtonIconButtonPrimaryRipple' at 15;18.", repo.ApplicationUnderTest.PgfLightRoot.IconButtonIconButtonPrimaryRippleInfo, new RecordItemIndex(8));
+            repo.ApplicationUnderTest.PgfLightRoot.IconButtonIconButtonPrimaryRipple.Click("15;18");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Horizontal by 480 units.", new RecordItemIndex(9));
+            Mouse.ScrollHorizontalWheel(480);
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Wünsche') on item 'ApplicationUnderTest.PgfLightRoot.Wuensche'.", repo.ApplicationUnderTest.PgfLightRoot.WuenscheInfo, new RecordItemIndex(10));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.PgfLightRoot.WuenscheInfo, "InnerText", "Wünsche");
+            Delay.Milliseconds(100);
             
         }
 
 #region Image Feature Data
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        CompressedImage ProcessStepProcessStepCompleted_Screenshot1
+        { get { return repo.ApplicationUnderTest.PgfLightRoot.ProcessStepProcessStepCompletedInfo.GetScreenshot1(new Rectangle(0, 0, 42, 62)); } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        Imaging.FindOptions ProcessStepProcessStepCompleted_Screenshot1_Options
+        { get { return Imaging.FindOptions.Parse("1;None;0,0,42,62;True;10000000;0ms"); } }
+
 #endregion
     }
 #pragma warning restore 0436

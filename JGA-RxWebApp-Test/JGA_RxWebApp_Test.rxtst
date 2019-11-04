@@ -41,11 +41,20 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
-			enabled="False"
 			id="51e122d8-4f1e-4db4-812f-178277f7a1d7"
 			name="CloseBrowser"
 			ref="2ef3a534-8f20-471c-8f14-6af1cd53b466"
 			type="Recording">
+			</testmodule>
+			<setup
+			id="5f438715-41a9-4b57-be30-27b9e16e56db"
+			name="setup">
+			</setup>
+			<testmodule
+			id="e0834ffb-5aa6-4609-9c4d-440f37ee9e23"
+			name="SetupJiraIntegration"
+			ref="c87d3889-8e1f-4009-b203-8bd062ef46c9"
+			type="UserCode">
 			</testmodule>
 			<testmodule
 			id="ef3ce7bd-bd2f-42f1-bf30-ebed10a83abc"
@@ -55,7 +64,7 @@
 			</testmodule>
 			<testcase
 			id="f4d01350-26e0-4637-a287-e034fdc73016"
-			name="TestCase">
+			name="TF2_Budgetguide-light-Pkt1">
 			</testcase>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -65,9 +74,17 @@
 				<testcase
 				id="0a343971-6658-40d5-ad0e-44ceb593e2d6"
 				name="JGA_RxWebApp_Test">
+					<setup
+					id="5f438715-41a9-4b57-be30-27b9e16e56db"
+					name="setup">
+						<testmodule
+						id="e0834ffb-5aa6-4609-9c4d-440f37ee9e23"
+						name="SetupJiraIntegration">
+						</testmodule>
+					</setup>
 					<testcase
 					id="f4d01350-26e0-4637-a287-e034fdc73016"
-					name="TestCase">
+					name="TF2_Budgetguide-light-Pkt1">
 						<setup
 						id="181e6a2f-a5b7-4e19-8d21-b2a44145568f"
 						name="setup">

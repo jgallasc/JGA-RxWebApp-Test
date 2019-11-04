@@ -7,6 +7,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF1D0B14-936D-41A5-A2DE-2F4B5A7CCE73}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
+		Jira = .\Jira.jsd
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JGA-RxWebApp-Test", "JGA-RxWebApp-Test\JGA-RxWebApp-Test.csproj", "{F15C269A-D72C-45D9-99D9-DDD35C0940EC}"

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="JGA_RxWebApp_Test.rxtst" />
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="JGA_RxWebApp_Test.Recording1.MergedUserCodeMethod(RepoItemInfo spantagInfo, RepoItemInfo divtagInfo, RepoItemInfo divtagInfo1)" />
+    </Array>
+  </Properties>
+</Properties>

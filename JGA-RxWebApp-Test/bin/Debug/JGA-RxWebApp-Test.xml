@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JGA-RxWebApp-Test</name>
+    </assembly>
+    <members>
+        <member name="T:JGA_RxWebApp_Test.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:JGA_RxWebApp_Test.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the JGA_RxWebApp_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:JGA_RxWebApp_Test.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepository">
+            <summary>
+            The class representing the JGA_RxWebApp_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the JGA_RxWebApp_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.BudgetguideLight">
+            <summary>
+            The BudgetguideLight item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.BudgetguideLightInfo">
+            <summary>
+            The BudgetguideLight item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.ButtonRippleParent">
+            <summary>
+            The ButtonRippleParent item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.ButtonRippleParentInfo">
+            <summary>
+            The ButtonRippleParent item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.ButtonButtonPrimaryRippleParent">
+            <summary>
+            The ButtonButtonPrimaryRippleParent item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.ButtonButtonPrimaryRippleParentInfo">
+            <summary>
+            The ButtonButtonPrimaryRippleParent item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.InputRangeSlider">
+            <summary>
+            The InputRangeSlider item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.InputRangeSliderInfo">
+            <summary>
+            The InputRangeSlider item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.SpanTag1994">
+            <summary>
+            The SpanTag1994 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.SpanTag1994Info">
+            <summary>
+            The SpanTag1994 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.ApplicationUnderTestAppFolder.PgfLightRoot">
+            <summary>
+            The PgfLightRoot folder.
+            </summary>
+        </member>
+        <member name="T:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder">
+            <summary>
+            The PgfLightRootFolder folder.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PgfLightRoot  folder.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ButtonButtonPrimaryRippleParent1">
+            <summary>
+            The ButtonButtonPrimaryRippleParent1 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ButtonButtonPrimaryRippleParent1Info">
+            <summary>
+            The ButtonButtonPrimaryRippleParent1 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.IconButtonIconButtonPrimaryRipple">
+            <summary>
+            The IconButtonIconButtonPrimaryRipple item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.IconButtonIconButtonPrimaryRippleInfo">
+            <summary>
+            The IconButtonIconButtonPrimaryRipple item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.Path">
+            <summary>
+            The Path item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.PathInfo">
+            <summary>
+            The Path item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.RadioButtonIcon">
+            <summary>
+            The RadioButtonIcon item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.RadioButtonIconInfo">
+            <summary>
+            The RadioButtonIcon item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg">
+            <summary>
+            The WebElementSvg item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvgInfo">
+            <summary>
+            The WebElementSvg item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg1">
+            <summary>
+            The WebElementSvg1 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg1Info">
+            <summary>
+            The WebElementSvg1 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.SelectMenu">
+            <summary>
+            The SelectMenu item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.SelectMenuInfo">
+            <summary>
+            The SelectMenu item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg2">
+            <summary>
+            The WebElementSvg2 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg2Info">
+            <summary>
+            The WebElementSvg2 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.IconButtonIconButtonPrimaryRipple2">
+            <summary>
+            The IconButtonIconButtonPrimaryRipple2 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.IconButtonIconButtonPrimaryRipple2Info">
+            <summary>
+            The IconButtonIconButtonPrimaryRipple2 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.IconButtonIconButtonPrimaryRipple3">
+            <summary>
+            The IconButtonIconButtonPrimaryRipple3 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.IconButtonIconButtonPrimaryRipple3Info">
+            <summary>
+            The IconButtonIconButtonPrimaryRipple3 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.IconButtonIconButtonPrimaryRipple1">
+            <summary>
+            The IconButtonIconButtonPrimaryRipple1 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.IconButtonIconButtonPrimaryRipple1Info">
+            <summary>
+            The IconButtonIconButtonPrimaryRipple1 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.DivTag2023">
+            <summary>
+            The DivTag2023 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.DivTag2023Info">
+            <summary>
+            The DivTag2023 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.SelectValue">
+            <summary>
+            The SelectValue item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.SelectValueInfo">
+            <summary>
+            The SelectValue item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.Path1">
+            <summary>
+            The Path1 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.Path1Info">
+            <summary>
+            The Path1 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.DivTag2026">
+            <summary>
+            The DivTag2026 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.DivTag2026Info">
+            <summary>
+            The DivTag2026 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.SelectArrow">
+            <summary>
+            The SelectArrow item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.SelectArrowInfo">
+            <summary>
+            The SelectArrow item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.AddButtonContent">
+            <summary>
+            The AddButtonContent item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.AddButtonContentInfo">
+            <summary>
+            The AddButtonContent item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.BubbleContent">
+            <summary>
+            The BubbleContent item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.BubbleContentInfo">
+            <summary>
+            The BubbleContent item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.BubbleContent1">
+            <summary>
+            The BubbleContent1 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.BubbleContent1Info">
+            <summary>
+            The BubbleContent1 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.GespraechsterminVereinbaren">
+            <summary>
+            The GespraechsterminVereinbaren item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.GespraechsterminVereinbarenInfo">
+            <summary>
+            The GespraechsterminVereinbaren item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg3">
+            <summary>
+            The WebElementSvg3 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg3Info">
+            <summary>
+            The WebElementSvg3 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg4">
+            <summary>
+            The WebElementSvg4 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg4Info">
+            <summary>
+            The WebElementSvg4 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg5">
+            <summary>
+            The WebElementSvg5 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg5Info">
+            <summary>
+            The WebElementSvg5 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.Path2">
+            <summary>
+            The Path2 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.Path2Info">
+            <summary>
+            The Path2 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg6">
+            <summary>
+            The WebElementSvg6 item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WebElementSvg6Info">
+            <summary>
+            The WebElementSvg6 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ProcessStepProcessStepCompleted">
+            <summary>
+            The ProcessStepProcessStepCompleted item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ProcessStepProcessStepCompletedInfo">
+            <summary>
+            The ProcessStepProcessStepCompleted item info.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.Wuensche">
+            <summary>
+            The Wuensche item.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.WuenscheInfo">
+            <summary>
+            The Wuensche item info.
+            </summary>
+        </member>
+        <member name="T:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ButtonButtonPrimaryRippleParent1InfoClass">
+            <summary>
+            The ButtonButtonPrimaryRippleParent1InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ButtonButtonPrimaryRippleParent1InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ButtonButtonPrimaryRippleParent1InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ButtonButtonPrimaryRippleParent1InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ButtonButtonPrimaryRippleParent1InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ProcessStepProcessStepCompletedInfoClass">
+            <summary>
+            The ProcessStepProcessStepCompletedInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ProcessStepProcessStepCompletedInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ProcessStepProcessStepCompletedInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ProcessStepProcessStepCompletedInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.JGA_RxWebApp_TestRepositoryFolders.PgfLightRootFolder.ProcessStepProcessStepCompletedInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:JGA_RxWebApp_Test.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:JGA_RxWebApp_Test.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the JGA_RxWebApp_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:JGA_RxWebApp_Test.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:JGA_RxWebApp_Test.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:JGA_RxWebApp_Test.Recording1.repo">
+            <summary>
+            Holds an instance of the JGA_RxWebApp_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:JGA_RxWebApp_Test.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:JGA_RxWebApp_Test.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.Recording1.ProcessStepProcessStepCompleted_Screenshot1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:JGA_RxWebApp_Test.Recording1.ProcessStepProcessStepCompleted_Screenshot1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.61s"
+		durationms="9606"
+		type="root"
+		rid="971e7615e78ba74"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="jgallasc"
+		rxversion="9.2.0.0"
+		host="DESKTOP-4VAJVCD"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-DE"
+		screenresolution="1920x1080"
+		timestamp="04.11.2019 19:58:55"
+		timestampiso="2019-11-04T18:58:55"
+		endtime="04.11.2019 19:59:05"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.302"
+			timeRelativeToTestModuleStartTime="00:04.302"
+			timeWallClock="19:58:59"
+			time="00:04.302"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=42,Height=62}) on item 'ApplicationUnderTest.PgfLightRoot.ProcessStepProcessStepCompleted'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/div/div[1]"
+				itempath=".//main/div/div[1]"
+				fullname="JGA_RxWebApp_TestRepository.ApplicationUnderTest.PgfLightRoot.ProcessStepProcessStepCompleted"
+				id="62c25501ae1a4be588f0b236ca9a9b7c"
+				timeout="90000"
+				codefile="d:\Projekte Ranorex Studio\JGA-RxWebApp-Test\JGA-RxWebApp-Test\Recording1.cs"
+				codeline="82"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.410"
+			timeRelativeToTestModuleStartTime="00:06.410"
+			timeWallClock="19:59:01"
+			time="00:06.410"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'JGA_RxWebApp_TestRepository.ApplicationUnderTest.PgfLightRoot.ProcessStepProcessStepCompleted' does match the specified image.
+			</message>
+			<metainfo
+				codefile="d:\Projekte Ranorex Studio\JGA-RxWebApp-Test\JGA-RxWebApp-Test\Recording1.cs"
+				codeline="83"
+				loglvl="Success"
+				id="62c25501ae1a4be588f0b236ca9a9b7c"
+				path="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/div/div[1]"
+				fullname="JGA_RxWebApp_TestRepository.ApplicationUnderTest.PgfLightRoot.ProcessStepProcessStepCompleted"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.520"
+			timeRelativeToTestModuleStartTime="00:06.520"
+			timeWallClock="19:59:01"
+			time="00:06.520"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InputRangeSlider' at 11;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div/?/?/div"
+				itempath=".//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div/?/?/div"
+				fullname="JGA_RxWebApp_TestRepository.ApplicationUnderTest.InputRangeSlider"
+				id="2dffc936bca341babba2773270a8c5f2"
+				timeout="60000"
+				codefile="d:\Projekte Ranorex Studio\JGA-RxWebApp-Test\JGA-RxWebApp-Test\Recording1.cs"
+				codeline="86"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.193"
+			timeRelativeToTestModuleStartTime="00:07.193"
+			timeWallClock="19:59:02"
+			time="00:07.193"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'ApplicationUnderTest.InputRangeSlider' at 9;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div/?/?/div"
+				itempath=".//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div/?/?/div"
+				fullname="JGA_RxWebApp_TestRepository.ApplicationUnderTest.InputRangeSlider"
+				id="2dffc936bca341babba2773270a8c5f2"
+				timeout="60000"
+				codefile="d:\Projekte Ranorex Studio\JGA-RxWebApp-Test\JGA-RxWebApp-Test\Recording1.cs"
+				codeline="90"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.743"
+			timeRelativeToTestModuleStartTime="00:07.743"
+			timeWallClock="19:59:03"
+			time="00:07.743"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'ApplicationUnderTest.InputRangeSlider' at 72;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div/?/?/div"
+				itempath=".//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div/?/?/div"
+				fullname="JGA_RxWebApp_TestRepository.ApplicationUnderTest.InputRangeSlider"
+				id="2dffc936bca341babba2773270a8c5f2"
+				timeout="60000"
+				codefile="d:\Projekte Ranorex Studio\JGA-RxWebApp-Test\JGA-RxWebApp-Test\Recording1.cs"
+				codeline="95"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.942"
+			timeRelativeToTestModuleStartTime="00:07.942"
+			timeWallClock="19:59:03"
+			time="00:07.942"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_Recordin_85210a49\Recordin_89819eb_rxlog.jpg"
+			errthumb="images_Recordin_85210a49\Recordin_89819eb_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="d:\Projekte Ranorex Studio\JGA-RxWebApp-Test\JGA-RxWebApp-Test\Recording1.cs"
+				codeline="96"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.365"
+			timeRelativeToTestModuleStartTime="00:08.365"
+			timeWallClock="19:59:03"
+			time="00:08.365"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InputRangeSlider' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div/?/?/div"
+				itempath=".//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div/?/?/div"
+				fullname="JGA_RxWebApp_TestRepository.ApplicationUnderTest.InputRangeSlider"
+				id="2dffc936bca341babba2773270a8c5f2"
+				timeout="60000"
+				codefile="d:\Projekte Ranorex Studio\JGA-RxWebApp-Test\JGA-RxWebApp-Test\Recording1.cs"
+				codeline="100"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.007"
+			timeRelativeToTestModuleStartTime="00:09.007"
+			timeWallClock="19:59:04"
+			time="00:09.007"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.PgfLightRoot.IconButtonIconButtonPrimaryRipple' at 15;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//footer/div[2]/div[2]"
+				itempath=".//footer/div[2]/div[2]"
+				fullname="JGA_RxWebApp_TestRepository.ApplicationUnderTest.PgfLightRoot.IconButtonIconButtonPrimaryRipple"
+				id="fe0f207ca4f148d78352c4051c8a2bef"
+				timeout="90000"
+				codefile="d:\Projekte Ranorex Studio\JGA-RxWebApp-Test\JGA-RxWebApp-Test\Recording1.cs"
+				codeline="104"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
