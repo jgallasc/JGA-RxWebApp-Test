@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7b2c59f0-66f5-4b30-856a-62aeeb2a54f3"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="JGA_RxWebApp_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://mlp-financify.de/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="c99a048a-3519-4992-970e-f32f5f82ba2f"
+	name="JGA_RxWebApp_TestRepository"
+	relativepath="JGA_RxWebApp_TestRepository.rxrep">
+		<codegen
+		classname="JGA_RxWebApp_TestRepository"
+		namespace="JGA_RxWebApp_Test">
+		</codegen>
+		<rootfolder
+		id="c9412520-0026-46b6-aef9-d1aae8838932"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

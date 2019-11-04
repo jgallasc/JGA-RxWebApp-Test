@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2ef3a534-8f20-471c-8f14-6af1cd53b466"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="JGA_RxWebApp_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="b3cf51cd-a681-47a0-abfe-b1c5e0313d89">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3560883d-df7f-489a-9273-0c75cf95131e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="c99a048a-3519-4992-970e-f32f5f82ba2f"
+	name="JGA_RxWebApp_TestRepository"
+	relativepath="JGA_RxWebApp_TestRepository.rxrep">
+		<codegen
+		classname="JGA_RxWebApp_TestRepository"
+		namespace="JGA_RxWebApp_Test">
+		</codegen>
+		<rootfolder
+		id="c9412520-0026-46b6-aef9-d1aae8838932"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

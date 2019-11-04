@@ -1,0 +1,98 @@
+﻿<repository
+id="c99a048a-3519-4992-970e-f32f5f82ba2f"
+name="JGA_RxWebApp_TestRepository">
+	<codegen
+	classname="JGA_RxWebApp_TestRepository"
+	namespace="JGA_RxWebApp_Test">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c9412520-0026-46b6-aef9-d1aae8838932"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="3560883d-df7f-489a-9273-0c75cf95131e"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="6bb4e51b-8bf2-4683-9f03-8280f5b6a3cf"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="32f8d7d4-622b-4219-9e3c-9b14c5047d2f"
+			name="BudgetguideLight"
+			refimgid="837e2a4f-1132-4786-baa6-573905e62f96"
+			refpath="/dom[@domain='mlp-financify.de']//ul[#'mlp-navigation']/li[4]/a[@innertext='Budgetguide light']"
+			searchtimeout="30000ms">
+				/dom[@domain='mlp-financify.de']//ul[#'mlp-navigation']/?/?/a[@innertext='Budgetguide light']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="2ecd24cd-7ba4-4f70-b86d-9a8f9ed39533"
+			name="ButtonRippleParent"
+			refimgid="09f7ba85-8298-46cb-8623-16b09f403a4e"
+			refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/div/div"
+			searchtimeout="30000ms">
+				/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/div/div
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="362bb3ab-4de9-49ce-9398-4cb3eb045537"
+			name="ButtonButtonPrimaryRippleParent"
+			refimgid="4d06c8cb-977d-49f1-bbca-944496e42a96"
+			refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/footer/div"
+			searchtimeout="30000ms">
+				/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//footer/div
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="2dffc936-bca3-41ba-bba2-773270a8c5f2"
+			name="InputRangeSlider"
+			refimgid="a522c200-d12a-4198-a662-e6ec59406a16"
+			refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div/div/span/div"
+			searchtimeout="30000ms">
+				/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div/?/?/div
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b09f0d63-d8fe-42b5-9ff5-992d5ff7888c"
+			name="SpanTag1994"
+			refimgid="b88f57da-2f4d-40f7-8598-a15f822426b6"
+			refpath="/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']/div/div[2]/main/main/div/div/div/span/span/span[@innertext='1994']"
+			searchtimeout="30000ms">
+				/dom[@domain='mlp-financify.de']//iframe[#'application']//div[#'pgf-light-root']//main/main/div/div/div//span[@innertext='1994']
+			</item>
+			<basepath>
+				/dom[@domain='mlp-financify.de']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="9.1">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="bfe5a06e-1b3f-4ac9-8745-5ea70576d9f7"
+			name="JGA_RxWebApp_Test">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="bfe5a06e-1b3f-4ac9-8745-5ea70576d9f7"
+			name="JGA_RxWebApp_Test">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>
